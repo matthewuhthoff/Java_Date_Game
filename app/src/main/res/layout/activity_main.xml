@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android= "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/entityImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:layout_marginBottom="200sp" />
+    <TextView
+        android:id="@+id/entityName"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_gravity="center_horizontal"
+        android:translationY="-200sp" />
+
+
+    <EditText android:id="@+id/guessInput"
+        android:hint="MM/DD/YYYY"
+        android:translationY="-200sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp" />
+
+
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit Guess"
+        android:translationY="-180sp" />
+
+</LinearLayout>
